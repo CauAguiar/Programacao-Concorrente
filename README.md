@@ -16,7 +16,7 @@ A disciplina de Programação Concorrente abrange:
 
 O repositório está organizado da seguinte forma:
 
-- **Trabalho 1**: Simulador de Trem.
+- **Trabalho 1**: Simulador de Trem
   - Arquivos relacionados:
     - `MainApp.java`: Classe principal do aplicativo que inicia a execução do simulador.
     - Arquivos de imagens: Imagens usadas como padrões para trens e outros elementos gráficos.
