@@ -20,7 +20,7 @@ Certifique-se de ter o seguinte software instalado em seu sistema:
 
 ## Estrutura do Projeto
 
-- `MainApp.java`: Classe principal do aplicativo que contém o método `main`.
+- `Principal.java`: Classe principal do aplicativo que contém o método `main`.
 
 ## Contribuição
 
