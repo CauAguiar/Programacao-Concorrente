@@ -2,7 +2,7 @@
 
 Projeto que simula tráfego e semáforos usando uma abordagem visual inspirada no Pac-Man. O objetivo é exercitar controle de fluxo, estados e coordenação entre várias threads.
 
-<img src="semaforopacman.gif" alt="Simulação Trânsito preview" width="300" />
+<img src="semaforopacman.gif" alt="Simulação Trânsito preview" width="500" />
 
 ## Arquivos
 
@@ -21,8 +21,8 @@ java Principal
 
 Preview (pasta `img/`):
 
-<img src="img/pacmanright.gif" alt="pacman" width="300" />
-<img src="img/blueghost.gif" alt="ghost" width="300" />
+<img src="img/pacmanright.gif" alt="pacman" width="500" />
+<img src="img/blueghost.gif" alt="ghost" width="500" />
 
 Várias imagens de sprites e assets gráficos estão disponíveis na pasta `img/`.
 
