@@ -2,7 +2,7 @@
 
 Este é um projeto de Simulador de Trem desenvolvido em Java utilizando a biblioteca JavaFX. O simulador permite visualizar trens se movendo em trilhas definidas e oferece opções de controle e interação.
 
-  <img src="SimuladorDeTrem/simuladordetremthreads.gif" alt="Simulador de Trem preview" width="300" />
+  <img src="simuladordetremthreads.gif" alt="Simulador de Trem preview" width="300" />
 
 ## Pré-requisitos
 
