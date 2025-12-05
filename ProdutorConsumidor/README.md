@@ -1,9 +1,8 @@
-```markdown
-# Produtor:Consumidor
+# ProdutorConsumidor
 
 Implementação do problema produtor/consumidor (buffer limitado) em Java. Este exemplo demonstra comunicação entre threads e sincronização para evitar condições de corrida e sobre/underflow do buffer.
 
-<img src="produtorconsumidor.gif" alt="Produtor Consumidor preview" width="240" />
+<img src="produtorconsumidor.gif" alt="Produtor Consumidor preview" width="300" />
 
 ## Arquivos
 
@@ -27,4 +26,3 @@ Preview (pasta `img/`):
 
 As imagens da pasta `img/` representam itens simulados (hambúrguer, batata, etc.).
 
-```

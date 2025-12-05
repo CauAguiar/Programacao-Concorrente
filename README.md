@@ -7,17 +7,17 @@ Este repositório reúne trabalhos da disciplina de Programação Concorrente, i
 - **Leitores e Escritores** — Exemplo clássico de sincronização entre leitores e escritores. Veja `Leitores e Escritores/README.md`.
   - Preview:
   
-  <img src="Leitores e Escritores/leitorescritor.gif" alt="Leitores e Escritores preview" width="240" />
+  <img src="Leitores e Escritores/leitorescritor.gif" alt="Leitores e Escritores preview" width="300" />
 
 - **ProdutorConsumidor** — Implementação do problema produtor/consumidor com buffer compartilhado. Veja `ProdutorConsumidor/README.md`.
   - Preview:
 
-  <img src="ProdutorConsumidor/produtorconsumidor.gif" alt="Produtor Consumidor preview" width="240" />
+  <img src="ProdutorConsumidor/produtorconsumidor.gif" alt="Produtor Consumidor preview" width="300" />
 
 - **Simulação de Trânsito** — Projeto que usa uma representação inspirada no Pac-Man para simular tráfego e semáforos. Veja `SimulaçãodeTrânsito/README.md`.
   - Preview:
 
-  <img src="SimulaçãodeTrânsito/semaforopacman.gif" alt="Simulação Trânsito preview" width="180" />
+  <img src="SimulaçãodeTrânsito/semaforopacman.gif" alt="Simulação Trânsito preview" width="300" />
 
 - **SimuladorDeTrem** — Simulador de trem com interface JavaFX completo com threads. Veja `SimuladorDeTrem/README.md`.
   - Preview:

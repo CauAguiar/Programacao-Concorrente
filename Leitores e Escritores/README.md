@@ -1,9 +1,8 @@
-```markdown
 # Leitores e Escritores
 
 Exemplo clássico do problema de leitores/escritores implementado em Java. O objetivo é demonstrar controle de acesso concorrente a um recurso compartilhado, permitindo múltiplos leitores simultâneos ou um único escritor.
 
-<img src="Leitores e Escritores/leitorescritor.gif" alt="Leitores e Escritores preview" width="240" />
+<img src="Leitores e Escritores/leitorescritor.gif" alt="Leitores e Escritores preview" width="300" />
 
 ## Arquivos
 
@@ -29,4 +28,4 @@ Preview dos recursos gráficos usados pela aplicação (pasta `img/`):
 
 As demais imagens usadas pelo projeto estão na pasta `img/`.
 
-``` 
+
