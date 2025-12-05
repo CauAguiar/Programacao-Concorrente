@@ -1,38 +1,45 @@
-# Programação Concorrente - Trabalhos
+# Programação Concorrente — Trabalhos
 
-Bem-vindo ao meu repositório de Programação Concorrente!
+Este repositório reúne trabalhos da disciplina de Programação Concorrente, implementados em Java. Cada pasta contém um pequeno projeto ou simulação relacionada a threads, sincronização e comunicação entre processos.
 
-Neste repositório, você encontrará os trabalhos relacionados à disciplina de Programação Concorrente. A programação concorrente lida com a execução simultânea de tarefas e é essencial para o desenvolvimento de aplicativos eficientes e escaláveis.
+## Índice de Projetos
 
-## Sobre a Disciplina
+- **Leitores e Escritores** — Exemplo clássico de sincronização entre leitores e escritores. Veja `Leitores e Escritores/README.md`.
+  - Preview:
+  
+  <img src="Leitores e Escritores/leitorescritor.gif" alt="Leitores e Escritores preview" width="240" />
 
-A disciplina de Programação Concorrente abrange:
+- **ProdutorConsumidor** — Implementação do problema produtor/consumidor com buffer compartilhado. Veja `ProdutorConsumidor/README.md`.
+  - Preview:
 
-- Conceitos fundamentais de concorrência e paralelismo.
-- Técnicas para lidar com sincronização e exclusão mútua.
-- Desenvolvimento de aplicações responsivas e de alto desempenho.
+  <img src="ProdutorConsumidor/produtorconsumidor.gif" alt="Produtor Consumidor preview" width="240" />
 
-## Estrutura do Repositório
+- **Simulação de Trânsito** — Projeto que usa uma representação inspirada no Pac-Man para simular tráfego e semáforos. Veja `SimulaçãodeTrânsito/README.md`.
+  - Preview:
 
-O repositório está organizado da seguinte forma:
+  <img src="SimulaçãodeTrânsito/semaforopacman.gif" alt="Simulação Trânsito preview" width="180" />
 
-- **Trabalho 1**: Simulador de Trem
-  - Arquivos relacionados:
-    - `MainApp.java`: Classe principal do aplicativo que inicia a execução do simulador.
-    - Arquivos de imagens: Imagens usadas como padrões para trens e outros elementos gráficos.
-    - `README.md`: Documentação que fornece instruções sobre como executar o simulador, seus recursos e detalhes sobre a estrutura do projeto.
+- **SimuladorDeTrem** — Simulador de trem com interface JavaFX completo com threads. Veja `SimuladorDeTrem/README.md`.
+  - Preview:
 
-- **Trabalho 2**: Descrição do Trabalho 2.
-  - Arquivos relacionados.
-- **Trabalho 5**: Simulação de Trânsito/Tráfego Autômato.
-  - Nesse trabalho minha ideia foi realizar o objetivo do mesmo a partir de uma representação do jogo do Pac-Man 
-  - `Principal.java`: Classe que trabalha a questão visual do programa de funcionalidades de botões e algumas configurações a parte.
-  - `ThreadInfo.java`: Classe que vai armazenar todos os semáforos e algumas lógicas do jogo Pac-Man
-  -  `P1.java`: Implementa o percurso de número 1 do fantasma/carro 
-  -  `P5.java`: Implementa o percurso de número 5 do fantasma/carro
-  -  `P8.java`: Implementa o percurso de número 8 do fantasma/carro
-  -  `P10.java`: Implementa o percurso de número 10 do fantasma/carro
-  -  `P13.java`: Implementa o percurso de número 13 do fantasma/carro
-  -  `P18.java`: Implementa o percurso de número 18 do fantasma/carro
-  -  `P20.java`: Implementa o percurso de número 20 do fantasma/carro
-  -  `P24.java`: Implementa o percurso de número 24 do fantasma/carro
+  <img src="SimuladorDeTrem/simuladordetremthreads.gif" alt="Simulador de Trem preview" width="300" />
+
+- **Trens sem Threads** — Versão simples do simulador de trens. Veja `Trens sem Threads/README.md`.
+  - Preview:
+
+  <img src="Trens sem Threads/simuladordetrem.gif" alt="Trens sem Threads preview" width="300" />
+
+## Como Compilar e Executar
+
+Os projetos são em Java (simples, sem build system). Para compilar e executar cada projeto, entre na pasta do projeto e use:
+
+```bash
+javac *.java
+java Principal
+```
+
+ou, quando a classe principal tiver outro nome, use o nome indicado no `README.md` da pasta.
+
+## Contribuições
+
+Estes projetos foram desenvolvidos como trabalhos acadêmicos; sinta-se à vontade para explorar e abrir issues se encontrar bugs ou quiser sugerir melhorias.
